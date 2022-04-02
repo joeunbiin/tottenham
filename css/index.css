@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+
+/* article1구역 슬라이드 */
+.article1 {margin-bottom: 100px;}
+.slide_group1 {position: relative;}
+.slide img {width: 100%;}
+.slide_group1 .slick-arrow {position: absolute; top: 50%; transform: translateY(-50%);
+                            border: none; background: none; z-index: 9999; font-size: 50px; color:#fff;}
+.slide_group1 .prev {left: 50px;}
+.slide_group1 .next {right: 50px;}
+.slide_group1 .slick-dots {position: absolute; bottom: 15px; left: 0; right: 0; text-align: center;}
+.slide_group1 .slick-dots li {display: inline-block; margin: 0 5px}
+.slide_group1 .slick-dots li button {width: 16px; height: 16px; border-radius: 50%; color: transparent; background:rgba(255, 255, 255, 0.5);
+                                     border: none; text-indent: -9999px;}
+.slide_group1 .slick-dots li.slick-active button {background: none; border: 2px solid rgba(255, 255, 255, 1)}
+.slide_group1 .slide1 {background: url(../img/slide_1.jpg) no-repeat center;
+                       height: 800px; background-size: cover; }
+.slide_group1 .slide2 {background: url(../img/slide_2.jpg) no-repeat 50% 30%;
+                       height: 800px; background-size: cover;}
+.slide_group1 .slide3 {background: url(../img/slide_7.jpg) no-repeat center bottom;
+                       height: 800px; background-size: cover;}
+.slide_group1 .slide4 {background: url(../img/slide_3.png) no-repeat center;
+                       height: 800px; background-size: cover;}
+.slide_group1 .slide5 {background: url(../img/slide_5.jpg) no-repeat center;
+                       height: 800px; background-size: cover;}
+.slide_group1 .slide.slick-active  {animation: slideImg 5s both;}
+@keyframes slideImg {from {transform: scale3d(1,1,1)} to {transform: scale3d(1.2,1.2,1.2)}}
+
+/* article2 */
+.article2 {margin-bottom: 50px;}
+.article2 > div {background: url('https://cdn.dynamicyield.com/api/8767370/images/2a4873e247b80__badges.jpg');
+                background-size: contain; color: #00164D; height: 300px;
+                background-color: rgba(255, 255, 255, 0);
+                background-position: center; background-repeat: no-repeat;}
+.article2 img {width: 100%;}
+.article2 h2 {text-align: center; font-size: 40px; padding-top: 10px;
+              font-weight: 600; height: 50px;}
+.article2 p {text-align: center; font-size: 25px; padding: 10px;}
+
+
+/* article3 */
+.article3 {height: 280px; background: url(../img/scroll_1.png) no-repeat center;
+          background-attachment: fixed; background-size: cover; margin-bottom: 120px;}
+
+
+/* article4 */
+.article4 {margin-bottom: 150px;}
+.article4 .hotissue {border: 10px solid #00164D; padding: 30px; align-items: center;
+                    display: flex; justify-content: space-around; flex-wrap: wrap;}
+.article4 .hotissue > div {margin: 10px 5px; width: 30%;}
+.article4 .hotissue > div img {width: 100%;}
+.article4 .hotissue > div p {padding: 10px; text-align: center; font-size: 15px; 
+                             color: #444}
+.article4 h2 {text-align: center; font-size: 40px; padding-bottom: 20px;
+              font-weight: 600; color: #00164D;}
+
+
+/* article5 */
+.article5 {margin-bottom: 150px;}
+.kit {position: relative; margin-right: 55px; margin-bottom: 100px ;}
+.kit_content, .korea_content {position: relative; margin: 0 56px;}
+.kit_content img {width: 800px; margin-left: 45px;}
+.kit_content > div {position: absolute; top: 30px; background: rgba(17,24,54,.85);
+                    bottom: 30px; left: 40%; width: 700px;}
+.kit_content > div .kit_txt {color: #fff; padding: 30px 50px; line-height: 1.5; width: 700px;}
+.kit_txt p:nth-of-type(1) {font-size: 23px; padding: 10px 0 20px; font-weight: 600;}
+.kit_txt p:nth-of-type(2) {padding-bottom: 80px;}
+.kit_txt a {cursor: pointer; float: right; padding: 8px 18px; background: #000e30;
+            transition: all 0.5s; color: #3d67e4; font-size: 15px; font-weight: 700;}
+.kit_txt a:hover {color: #e0e721; background: #001d68ad;}
+.korea {margin-left: 55px;  position: relative;}
+.korea_content img {width: 800px; margin-right: 45px; float: right;}
+.korea_content > div {position: absolute; top: 30px; background: rgba(17,24,54,.85); ;
+                        bottom: 30px; right: 40%; width: 700px}
+.korea_content > div .korea_txt {color: #fff; padding: 30px 50px; line-height: 1.5; width: 700px;}
+.korea_content p:nth-of-type(1) {font-size: 23px; padding: 10px 0 20px; font-weight: 600;}
+.korea_content p:nth-of-type(2) {padding-bottom: 60px;}
+.korea_content a {cursor: pointer; float: left; padding: 8px 18px; background: #000e30;
+                  transition: all 0.5s; color: #3d67e4; font-size: 15px; font-weight: 700;}
+.korea_content a:hover {color: #e0e721; background: #001d68ad;}
+
+

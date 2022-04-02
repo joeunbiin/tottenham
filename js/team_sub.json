@@ -1,0 +1,618 @@
+{
+    "team_sub1" : [
+        {
+            "Photo": "img/team/team_men_1.png",
+            "Name": "Hugo lloris",
+            "Nation": "Nice, France",
+            "Number": "1"
+        },
+        {
+            "Photo": "img/team/team_men_2.png",
+            "Name": "Matt Doherty",
+            "Nation": "Dublin, Ireland",
+            "Number": "2"
+        },
+        {
+            "Photo": "img/team/team_men_3.png",
+            "Name": "Sergio Reguilón",
+            "Nation": "Madrid, Spain",
+            "Number": "3"
+        },
+        {
+            "Photo": "img/team/team_men_4.png",
+            "Name": "Toby Alderweireld",
+            "Nation": "Wilrijk, Belgium",
+            "Number": "4"
+        },
+        {
+            "Photo": "img/team/team_men_5.png",
+            "Name": "Pierre-Emile Højbjerg",
+            "Nation": "Copenhagen, Denmark",
+            "Number": "5"
+        },
+        {
+            "Photo": "img/team/team_men_6.png",
+            "Name": "Davinson Sanchez",
+            "Nation": "Caloto, Colombia",
+            "Number": "6"
+        },
+        {
+            "Photo": "img/team/team_men_7.png",
+            "Name": "Heung-Min Son",
+            "Nation": "Chuncheon, South Korea",
+            "Number": "7"
+        },
+        {
+            "Photo": "img/team/team_men_8.png",
+            "Name": "Harry Winks",
+            "Nation": "Hemel Hempstead, England",
+            "Number": "8"
+        },
+        {
+            "Photo": "img/team/team_men_9.png",
+            "Name": "Gareth Bale",
+            "Nation": "Cardiff, Wales",
+            "Number": "9"
+        },
+        {
+            "Photo": "img/team/team_men_10.png",
+            "Name": "Harry Kane",
+            "Nation": "London, England",
+            "Number": "10"
+        },
+        {
+            "Photo": "img/team/team_men_11.png",
+            "Name": "Erik Lamela",
+            "Nation": "Carapachay, Argentina",
+            "Number": "11"
+        },
+        {
+            "Photo": "img/team/team_men_12.png",
+            "Name": "Joe Hart",
+            "Nation": "Shrewsbury, England",
+            "Number": "12"
+        }, 
+        {
+            "Photo": "img/team/team_men_14.png",
+            "Name": "Joe Rodon",
+            "Nation": "Llangyfelach, Wales",
+            "Number": "14"
+        },
+        {
+            "Photo": "img/team/team_men_15.png",
+            "Name": "Eric Dier",
+            "Nation": "Cheltenham, England",
+            "Number": "15"
+        }, 
+        {
+            "Photo": "img/team/team_men_17.png",
+            "Name": "Moussa Sissoko",
+            "Nation": "Le Blanc-Mesnil, France",
+            "Number": "17"
+        },
+        {
+            "Photo": "img/team/team_men_18.png",
+            "Name": "Giovani Lo Celso",
+            "Nation": "Rosario, Argentina",
+            "Number": "18"
+        },
+        {
+            "Photo": "img/team/team_men_20.png",
+            "Name": "Dele Alli",
+            "Nation": "Milton Keynes, England",
+            "Number": "20"
+        },
+        {
+            "Photo": "img/team/team_men_23.png",
+            "Name": "Steven Bergwijn",
+            "Nation": "Amsterdam, Netherlands",
+            "Number": "23"
+        },
+        {
+            "Photo": "img/team/team_men_24.png",
+            "Name": "Serge Aurier",
+            "Nation": "Ouragahio, Cote d'Ivoire",
+            "Number": "24"
+        },
+        {
+            "Photo": "img/team/team_men_25.png",
+            "Name": "Japhet Tanganga",
+            "Nation": "London, England",
+            "Number": "25"
+        },
+        {
+            "Photo": "img/team/team_men_27.png",
+            "Name": "Lucas Moura",
+            "Nation": "São Paulo, Brazil",
+            "Number": "27"
+        },
+        {
+            "Photo": "img/team/team_men_28.png",
+            "Name": "Tanguy Ndombele",
+            "Nation": "Longjumeau, France",
+            "Number": "28"
+        },
+        {
+            "Photo": "img/team/team_men_33.png",
+            "Name": "Ben Davies",
+            "Nation": "Neath, Wales",
+            "Number": "33"
+        },
+        {
+            "Photo": "img/team/team_men_41.png",
+            "Name": "Alfie Whiteman",
+            "Nation": "London, England",
+            "Number": "41"
+        },
+        {
+            "Photo": "img/team/team_men_45.png",
+            "Name": "Carlos Vinicius",
+            "Nation": "Bom Jesus das Selvas, Brazil",
+            "Number": "33"
+        },
+        {
+            "Photo": "img/team/team_men_none.png",
+            "Name": "Danny Rose",
+            "Nation": "Doncaster, England",
+            "Number": ""
+        }
+    ],
+    "team_sub2" : [
+        {
+            "Photo": "img/team/team_men_19.png",
+            "Name": "Ryan Sessegnon",
+            "Nation": "Roehampton, England",
+            "Number": "19"
+        },
+        {
+            "Photo": "img/team/team_men_21.png",
+            "Name": "Juan Foyth",
+            "Nation": "La Plata, Argentina",
+            "Number": "21"
+        },
+        {
+            "Photo": "img/team/team_men_22.png",
+            "Name": "Paulo Gazzaniga",
+            "Nation": "Murphy, Argentina",
+            "Number": "22"
+        },
+        {
+            "Photo": "img/team/team_men_29.png",
+            "Name": "Oliver Skipp",
+            "Nation": " Welwyn Garden City, England",
+            "Number": "29"
+        },
+        {
+            "Photo": "img/team/team_men_47.png",
+            "Name": "Jack Clarke",
+            "Nation": "York, England",
+            "Number": "47"
+        },
+        {
+            "Photo": "img/team/team_men_none1.png",
+            "Name": "Cameron Carter-Vickers",
+            "Nation": "Southend-on-Sea, England",
+            "Number": " "
+        }
+    ],
+    "team_sub3" : [
+        {
+            "Photo": "img/team/team_women_1.png",
+            "Name": "Aurora Mikalsen",
+            "Nation": "Kristiansund, Norway",
+            "Number": "1"
+        },
+        {
+            "Photo": "img/team/team_women_3.png",
+            "Name": "Shelina Zadorsky",
+            "Nation": "Ontario, Canada",
+            "Number": "3"
+        },
+        {
+            "Photo": "img/team/team_women_4.png",
+            "Name": "Josie Green",
+            "Nation": "Hemel Hempstead, England",
+            "Number": "4"
+        },
+        {
+            "Photo": "img/team/team_women_5.png",
+            "Name": "Kerys Harrop",
+            "Nation": "Stourbridge, England",
+            "Number": "5"
+        },
+        {
+            "Photo": "img/team/team_women_7.png",
+            "Name": "PGemma Davison",
+            "Nation": "Barnet, England",
+            "Number": "7"
+        },
+        {
+            "Photo": "img/team/team_women_8.png",
+            "Name": "Chloe Peplow",
+            "Nation": "Redditch, England",
+            "Number": "8"
+        },
+        {
+            "Photo": "img/team/team_women_9.png",
+            "Name": "Rianna Dean",
+            "Nation": "CHillingdon, England",
+            "Number": "9"
+        },
+        {
+            "Photo": "img/team/team_women_10.png",
+            "Name": "Rachel Williams",
+            "Nation": "Leicester, England",
+            "Number": "10"
+        },
+        {
+            "Photo": "img/team/team_women_11.png",
+            "Name": "So-hyun Cho",
+            "Nation": "Seoul, South Korea",
+            "Number": "11"
+        },
+        {
+            "Photo": "img/team/team_women_12.png",
+            "Name": "Ria Percival",
+            "Nation": "Basildon, England",
+            "Number": "12"
+        },
+        {
+            "Photo": "img/team/team_women_14.png",
+            "Name": "Angela Addison",
+            "Nation": "Chelmsford, England",
+            "Number": "14"
+        },
+        {
+            "Photo": "img/team/team_women_15.png",
+            "Name": "Siri Worm",
+            "Nation": "Doetinchem, Netherlands",
+            "Number": "15"
+        }, 
+        {
+            "Photo": "img/team/team_women_16.png",
+            "Name": "Kit Graham",
+            "Nation": "Chatham, England",
+            "Number": "16"
+        },
+        {
+            "Photo": "img/team/team_women_17.png",
+            "Name": "Jessica Naz",
+            "Nation": "London, England",
+            "Number": "17"
+        }, 
+        {
+            "Photo": "img/team/team_women_18.png",
+            "Name": "Alanna Kennedy",
+            "Nation": "Campbelltown, Australia",
+            "Number": "18"
+        },
+        {
+            "Photo": "img/team/team_women_19.png",
+            "Name": "Lucy Quinn",
+            "Nation": "Southampton, England",
+            "Number": "19"
+        },
+        {
+            "Photo": "img/team/team_women_20.png",
+            "Name": "Abbie McManus",
+            "Nation": "Prestwich, England",
+            "Number": "20"
+        },
+        {
+            "Photo": "img/team/team_women_22.png",
+            "Name": "Becky Spencer",
+            "Nation": "Brent, England",
+            "Number": "22"
+        },
+        {
+            "Photo": "img/team/team_women_23.png",
+            "Name": "Rosella Ayane",
+            "Nation": "Reading, England",
+            "Number": "23"
+        },
+        {
+            "Photo": "img/team/team_women_25.png",
+            "Name": "Hannah Godfrey",
+            "Nation": "Thornton-Cleveleys, England",
+            "Number": "25"
+        },
+        {
+            "Photo": "img/team/team_women_29.png",
+            "Name": "Ashleigh Neville",
+            "Nation": "West Bromwich, England",
+            "Number": "29"
+        }
+    ],
+    "team_sub4" : [
+        {
+            "Photo": "img/team/team_women_2.png",
+            "Name": "Lucia Leon",
+            "Nation": "Madrid, Spain",
+            "Number": "21"
+        },
+        {
+            "Photo": "img/team/team_women_6.png",
+            "Name": "Anna Filbey",
+            "Nation": "Hillingdon, England",
+            "Number": "19"
+        }
+    ],
+    "team_sub5" : [
+        {
+            "Photo": "img/team/team_u23_1.png",
+            "Name": "Enock Asante",
+            "Nation": "Akuapim-Mampong, Ghana"
+        },
+        {
+            "Photo": "img/team/team_u23_2.png",
+            "Name": "J’Neil Bennett",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_3.png",
+            "Name": "Jamie Bowden",
+            "Nation": "Middlesex, England"
+        },
+        {
+            "Photo": "img/team/team_u23_4.png",
+            "Name": "Dennis Cirkin",
+            "Nation": "Dublin, Ireland"
+        },
+        {
+            "Photo": "img/team/team_u23_5.png",
+            "Name": "Chay Cooper",
+            "Nation": "Harlow, England"
+        },
+        {
+            "Photo": "img/team/team_u23_6.png",
+            "Name": "Kion Etete",
+            "Nation": "Derby, England"
+        },
+        {
+            "Photo": "img/team/team_u23_7.png",
+            "Name": "Keenan Ferguson",
+            "Nation": "Southwark, England"
+        },
+        {
+            "Photo": "img/team/team_u23_8.png",
+            "Name": "Kacper Kurylowicz",
+            "Nation": "Luton, England"
+        },
+        {
+            "Photo": "img/team/team_u23_9.png",
+            "Name": "Marcel Lavinier",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_10.png",
+            "Name": "Brooklyn Lyons-Foster",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_11.png",
+            "Name": "Dilan Markanday",
+            "Nation": "Barnet, England"
+        },
+        {
+            "Photo": "img/team/team_u23_12.png",
+            "Name": "George Marsh",
+            "Nation": "Pembury, England"
+        }, 
+        {
+            "Photo": "img/team/team_u23_13.png",
+            "Name": "Jeremie Mukendi",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_14.png",
+            "Name": "Joshua Oluwayemi",
+            "Nation": "London, England"
+        }, 
+        {
+            "Photo": "img/team/team_u23_15.png",
+            "Name": "Tobi Omole",
+            "Nation": "Brockley, England"
+        },
+        {
+            "Photo": "img/team/team_u23_16.png",
+            "Name": "Rafferty Pedder",
+            "Nation": "Maidstone, England"
+        },
+        {
+            "Photo": "img/team/team_u23_17.png",
+            "Name": "Rodel Richards",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_18.png",
+            "Name": "Aaron Skinner",
+            "Nation": "Salford, England"
+        },
+        {
+            "Photo": "img/team/team_u23_19.png",
+            "Name": "Elliot Thorpe",
+            "Nation": "Hinchingbrooke, England"
+        }
+    ],
+    "team_sub6" : [
+        {
+            "Photo": "img/team/team_u23_20.png",
+            "Name": "Brandon Austin",
+            "Nation": "Hemel Hempstead, England"
+        },
+        {
+            "Photo": "img/team/team_u23_21.png",
+            "Name": "Timothy Eyoma",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_22.png",
+            "Name": "Malachi Fagan-Walcott",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_23.png",
+            "Name": "Jubril Okedina",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_24.png",
+            "Name": "Troy Parrott",
+            "Nation": "Dublin, Ireland"
+        },
+        {
+            "Photo": "img/team/team_u23_25.png",
+            "Name": "Jack Roles",
+            "Nation": "Enfield, England"
+        },
+        {
+            "Photo": "img/team/team_u23_26.png",
+            "Name": "Kazaiah Sterling",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u23_27.png",
+            "Name": "Shilow Tracey",
+            "Nation": "Northfleet, England"
+        },
+        {
+            "Photo": "img/team/team_u23_28.png",
+            "Name": "Harvey White",
+            "Nation": "Maidstone, England"
+        }
+    ],
+    "team_sub7" : [
+        {
+            "Photo": "img/team/team_u18s_1.png",
+            "Name": "Eddie Carrington",
+            "Nation": "Hackney, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_2.png",
+            "Name": "Kallum Cesay",
+            "Nation": "Newham, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_3.png",
+            "Name": "Matthew Craig",
+            "Nation": "Barnet, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_4.png",
+            "Name": "Michael Craig",
+            "Nation": "Barnet, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_5.png",
+            "Name": "Nile John",
+            "Nation": "White City, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_6.png",
+            "Name": "Jeremy Kyezu",
+            "Nation": "Southgate, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_7.png",
+            "Name": "Thimothee Lo-Tutala",
+            "Nation": "Paris, France"
+        },
+        {
+            "Photo": "img/team/team_u18s_8.png",
+            "Name": "Dermi Lusala",
+            "Nation": "Edmonton, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_9.png",
+            "Name": "Marqes Muir",
+            "Nation": "Lambeth, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_10.png",
+            "Name": "Romaine Mundle",
+            "Nation": "Edmonton, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_11.png",
+            "Name": "Maksim Paskotsi",
+            "Nation": "Tallinn, Estonia"
+        },
+        {
+            "Photo": "img/team/team_u18s_12.png",
+            "Name": "Max Robson",
+            "Nation": "Haywards Heath, England"
+        },
+        {
+            "Photo": "img/team/team_u18s_13.png",
+            "Name": "Yago Santiago",
+            "Nation": "Vigo, Spain"
+        },
+        {
+            "Photo": "img/team/team_u18s_14.png",
+            "Name": "Isak Solberg",
+            "Nation": "Voss, Norway"
+        },
+        {
+            "Photo": "img/team/team_u18s_15.png",
+            "Name": "Tarrelle Whittaker",
+            "Nation": "Newham, England"
+        }
+    ],
+    "team_sub8" : [
+        {
+            "Photo": "img/team/team_u18f_1.png",
+            "Name": "Dante Cassanova",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_2.png",
+            "Name": "Jezreel Davies",
+            "Nation": "Hackney, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_3.png",
+            "Name": "Alfie Devine",
+            "Nation": "Warrington, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_4.png",
+            "Name": "Jordan Hackett",
+            "Nation": "Hammersmith, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_5.png",
+            "Name": "Khalon Haysman",
+            "Nation": "Enfield, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_6.png",
+            "Name": "Adam Hayton",
+            "Nation": "Luton, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_7.png",
+            "Name": "Aaron Maguire",
+            "Nation": "Leytonstone, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_8.png",
+            "Name": "Roshaun Mathurin",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_9.png",
+            "Name": "Dane Scarlett",
+            "Nation": "Hillingdon, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_10.png",
+            "Name": "Renaldo Torraj",
+            "Nation": "London, England"
+        },
+        {
+            "Photo": "img/team/team_u18f_11.png",
+            "Name": "Oliver Turner",
+            "Nation": "Welwyn Garden City, England"
+        }
+    ]
+}

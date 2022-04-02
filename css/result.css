@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+#section {margin: 0 0 200px 0;}
+.result .row {padding: 0 70px;}
+.subtitle {font-size: 50px; padding: 40px 0; font-weight: 600; position: relative;
+           margin-top: 30px;}
+.subtitle::after {content: ''; position: absolute; top: 100px; left: 0; 
+            width: 90px; height: 7px; background: #e0e721;}
+.result .row > ul {width: 100%; padding: 17px 0; text-align: center; color: #fff;
+                    background: #2b3049; display: flex; border-radius: 10px; 
+                    margin-top: 50px;}
+.result .row > ul li {border-right: 1px solid #666; flex: 1; 
+                      font-size: 17px; cursor: pointer;}
+.result .row > ul li:last-child {border-right: none;}
+.result .row > ul li.active {color: #e0e721;; font-weight: bold;}
+#sd_box {margin: 0 auto; max-width: 1000px;}
+.sd_container > div {display: none;}
+.sd_container > div.active {display: block;}
+.mcontent {background: #f5f4f4}
+.mcontent > div {position: relative; }
+#sd_box h3 {font-size: 28px; text-align: center; padding: 40px 0 20px;
+            font-weight: 700; margin-top: 20px;}
+#sd_box .monthf {background: #99a6ad; padding: 10px; }
+#sd_box .monthf span {padding: 0 10px;}
+#sd_box .monthf span:nth-child(1) {font-weight: 600;}
+#sd_box .mcontent > div .btn {position: absolute; top: 50%; right: 30px;
+                              transform: translateY(50%); font-size: 18px;}
+#sd_box .months {text-align: center; padding: 10px;}
+.months li:nth-of-type(1) {width: 35%; text-align: right; margin-right: 10px; }
+.months li:nth-of-type(3) {width: 35%; text-align: left; margin-left: 10px; }
+#sd_box .months li {display: inline-block;}
+#sd_box .months li span {font-size: 14px;}
+#sd_box .months li:nth-child(2) {padding: 8px 12px; background: #0f142a;
+                                 color: #fff; border-radius: 8px; margin: 0 10px;}
+#sd_box .months li:nth-child(2) span {font-size: 16px;}
+#sd_box .months li img {width: 40px}
+#sd_box .minfo {text-align: center; padding: 10px 0;
+                display: none;}
+#sd_box .minfo.on {display: block;}
+.minfo > div {display: inline-block; line-height: 1.5; font-size: 14px;}
+.minfo > div:nth-child(1) {width: 43%; text-align: right; 
+                            margin-right: 70px; vertical-align: top;}
+.minfo > div:nth-child(2) {width: 43%; text-align: left;
+                            margin-left: 50px; vertical-align: top;}

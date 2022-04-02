@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+/* header구역 */
+#header {position: relative;}
+#header .search {background:#0b0e1e; padding: 6px 50px 8px 0; color: #fff; 
+                 text-align: right;}
+#header .search a {border-right: 1px solid #bbb; display: inline-block; font-weight: 600;
+                   font-size: 14px; padding: 2px 20px 2px 15px; transition: all 0.5s;}
+#header .search a:nth-of-type(2):hover, #header .search a:nth-of-type(3):hover {color: #3d67e4; }
+#header .search a:nth-of-type(1) { border-left: 1px solid #bbb;}
+#header .search a:nth-of-type(1) img {vertical-align: baseline; margin: 0 6px 0 4px;}
+#header .nav h1 {text-align: center; position: relative;
+                 padding: 20px 0;}
+#header .nav h1 p {position: absolute; top: 55%; right: 15%; color: #0e1124; 
+                    font-weight: 600;}
+#header .nav h1 p i {animation: ballspin infinite 5s linear; font-size: 33px;}                 
+#header .nav h1 p i:hover {color: #3d67e4; }
+@keyframes ballspin {from {transform: rotate(0deg)} to {transform: rotate(3turn)}}
+#header .nav_menu {background: #0f142a; text-align: center; }                    
+#header .nav_menu .depth1 {font-weight: 600; font-size: 18px; color: #fff;}
+#header .nav_menu .depth1 li {position: relative; padding: 20px 60px; display: inline-block;}
+#header .nav_menu .depth1 li:hover {color: #3d67e4}
+#header .nav_menu .depth2 {position: absolute; width: 100%; top: 100% ; left: 0%; background: #222d5e ;
+                            font-size: 15px; color: #fff; z-index: 9999; text-align: center;
+                            display: none;}
+#header .nav_menu .depth2 li {padding: 15px 0; display: block;}
+#header .nav_menu .depth2 > li:hover {background: #3d67e4; color:#0f142a}
+
+/* searchbox open*/
+.search_open {position: fixed; z-index: 99999; top: 0;
+             bottom: 0; left: 0; right: 0; display: none;
+             background-color: rgba(15,20,42,.95);}
+.search_open.on {display: block}
+.searchbox {max-width: 720px; margin: 0 auto;
+            height: 100%; padding-top: 300px;}
+.searchbox input {height: 70px; width: 90%; float: left; background: none;
+                      border: none; border-bottom: 3px double #fff;} 
+.searchbox input[placeholder] {font-size: 20px; color: #fff;}
+.searchbox > div > button {font-size: 40px; color: #fff; background: none;
+                           float: right; width: 10%; padding-top: 25px;
+                           cursor: pointer;}
+.searchbox > button {position: fixed; top: 50px; right: 50px;
+                     font-size: 45px; background: none; color: #fff;
+                     cursor: pointer; overflow: hidden;}
+.searchbox button:hover {color: #3d67e4;}
+    
+
+
+
+
+/* footer구역 */
+#footer .ft1 {background: #0f142a; padding: 50px 0}
+#footer .ft1 img {margin: 0 auto; padding: 0 40px;}
+#footer .ft2 ul {display: flex; justify-content: space-evenly; margin: 0 150px;
+                 background: #fff; padding: 20px 0;}
+#footer .ft2 ul li {list-style-type: none;}
+#footer .ft3 {text-align: center; background: #0f142a; padding: 15px;
+              color: #fff; font-size: 17px; letter-spacing: 1px;}
+#footer .ft4 {margin: 0 auto; background: #0b0e1e; text-align: center; color: #ddd;}
+#footer .ft4 ul li {display: inline-block; margin: 30px 20px; font-size: 14px;
+                    transition: all 0.5s;}
+#footer .ft4 ul li:hover {color: #3d67e4; cursor: pointer;}
+
+/* gotop */
+.gotop {background: rgba(61, 103, 228, 0.6);
+       bottom: 2em; right: 2em; height: 3em; width: 3em;
+        padding: 1em; position: fixed; transform: rotate(45deg);
+        transition: all 0.5s;z-index: 99; cursor: pointer;}
+.gotop a i {width: 100%; transform: rotate(-45deg);
+            color: #fff; font-size: 1.5em; padding-left: 0.2em;}
+.gotop:hover {background: rgba(61, 103, 228, 1);}
+

@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+#wrap .top {height: 33px; background:#0b0e1e; position: relative; }
+.menubar {position: absolute; top: 100%; left: 12%; z-index: 9}
+.menubar .logo {padding: 30px 13px 35px 27px; width: 80px; background-color: #111836}
+#wrap .bottom {text-align: center; background: #0f142a; height: 47px;
+               color: #fff; font-size: 17px; letter-spacing: 1px; 
+               padding-top: 15px;}
+
+.box {max-width: 700px; margin: 0 auto;}
+.register {margin: 100px 0;}
+.register h2 {font-size: 28px; padding: 30px 0; font-weight: 600;
+              position: relative}
+.register h2::after {content: ''; position: absolute; top: 63px; left: 0; 
+                     width: 50px; height: 3px; background: #e0e721;}
+.register form input[type='text'], .register form input[type='password'] 
+    {height: 50px; border: 1px solid #999; text-align: 1em; 
+     width: 100%; vertical-align: middle; margin: 10px 0;}
+.register form input[placeholder] {padding-left: 5px;}
+.register form p:nth-of-type(6) label {padding-left: 10px;}
+.register form p:nth-of-type(6) input {width: 150px; height: 50px;}
+.register form p:nth-of-type(6) select {width: 150px; height: 50px;}
+.register form p:nth-of-type(6) select option {font-size: 14px;}
+.register form input[type='checkbox'] {width: 20px; height: 20px;}
+.register form p:nth-of-type(7) {margin: 10px 0; color: #999; padding-left: 10px;}
+.register form p:nth-of-type(8) {margin: 10px 0; color: #999; padding-left: 10px;}
+.register form p:nth-of-type(9) {margin: 10px 0 50px; color: #999; line-height: 1.5;
+                                 padding-left: 10px;}
+.register form .btn {text-align: center;}
+.register form .btn button {vertical-align: middle; border: none; font-size: 16px;
+                            background: #111836; color: #3d67e4; text-align: center;
+                            padding: 10px 30px; margin-left: 10px;
+                            transition: all 0.5s; cursor: pointer;}
+.register form .btn button:hover {background: #3d67e4; color: #111836;}

@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+#section {margin: 0 0 200px 0;}
+.tokorea {background: #00164d; padding: 11px; font-size: 14px;
+          text-align: center; color: #fff;}
+.shop > img {width: 100%;}
+
+
+/* trending */
+.trending {margin: 100px 0}
+.trending h2 {text-align: center; font-size: 40px; padding-bottom: 20px;
+              font-weight: 600;}
+.trending .tp_box {display: flex;} 
+.trending .tp_box > div {width: 20%; padding: 6px; position: relative; overflow: hidden;
+                         cursor: pointer;}
+.trending .tp_box > div::after {content: ""; width: 150%; height: 200%; z-index: 11;
+                                position: absolute; top: -100%; left: -180%; transition: 1s;
+                                transform: rotate(30deg) scale(1.2); 
+                                background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.7) 100%);}
+.trending .tp_box > div:hover::after {top: 100%; left: 100%; -webkit-transform: rotate(0); 
+                                      transform: rotate(0);}
+.trending .tp_box > div p {text-align: center; padding-top: 10px; font-size: 18px;}
+
+
+/* totscroll_1 */
+.totscroll_1 {height: 300px; background: url(../img/tottenham.png) no-repeat center;
+            background-attachment: fixed; background-size: cover; margin: 100px 0 }
+
+/* shirt */
+.shirt {display: flex; margin: 100px 0}
+.shirt > div {width: 25%; transition: all 0.5s; position: relative;}
+.shirt .shirt_txt {text-align: center; position: absolute; 
+                   top: 50%; left: 0; right: 0;}
+.shirt .shirt_txt h3 {color: #fff; padding: 40px; font-size: 40px; font-weight: 600;}
+.shirt .shirt_txt a {color: #fff; padding: 12px 22px; font-size: 15px;
+                     background: #00164d; border-radius: 30px;
+                     transition: all 0.5s; opacity: 0;}
+.shirt > div:hover a {opacity: 1;}
+.shirt .shirt_txt a:hover {background: #3d67e4;}
+
+/* best_seller */
+.best_tab {margin: 100px auto 30px; display: flex; justify-content: center;
+      cursor: pointer; }
+.best_tab li {background: #d0d9f0; color: #333;}
+.best_tab li:nth-child(1) {border-radius: 30px 0  0 30px; padding: 13px 45px;}
+.best_tab li:nth-child(2) {border-radius: 0 30px 30px 0; padding: 13px 25px;}
+.best_tab li.active {background: #00164d; color: #fff;;}
+.best {margin-bottom: 100px;}
+.best > div {display: none;}
+.best > div.active {display: block; display: flex; justify-content: space-around;}
+.best .bestbox {text-align: center; line-height: 2;}
+.best .bestbox img {margin-bottom: 20px;}
+.best .bestbox h3 {font-weight: 700;}
+
+
+/* totscroll_2 */
+.totscroll_2 {height: 450px; background: url(../img/shop/SonHeader.jpg) no-repeat center;
+              background-attachment: fixed; background-size: cover; margin: 100px 0 }
+
+/* sonny */
+.sonny {margin: 100px 0; overflow-x: scroll; margin: 0 70px;}
+.sonny::-webkit-scrollbar {background: #ddd; height: 7px;}
+.sonny::-webkit-scrollbar-thumb {background: #00164d; border-radius: 1000px}
+.sonny::-webkit-scrollbar-track-piece {background: #ddd; }
+.sonny h2 {text-align: center; font-size: 40px; padding-bottom: 20px;
+           font-weight: 600;}
+.sonnycollection {display: flex; padding-bottom: 15px; width: 3300px;}
+.sonnycollection > div {padding: 10px; width: 300px;}
+.sonnycollection > div img {width: 100%}
+.sonny_txt {text-align: center; padding-bottom: 30px;}
+.sonny_txt h3 {margin-bottom: 15px; font-size: 18px; font-weight: 600;}
+               /* overflow: hidden; text-overflow: ellipsis; white-space: nowrap; */
+.sonny_txt p {margin-bottom: 30px; }
+.sonny_txt a {color: #fff; padding: 8px 40px; font-size: 15px;
+              background: #00164d; border-radius: 30px;
+              transition: all 0.5s;}
+.sonny_txt a:hover {background: #3d67e4;}
+

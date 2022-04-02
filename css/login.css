@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+#wrap .top {height: 33px; background:#0b0e1e; position: relative; }
+.menubar {position: absolute; top: 100%; left: 12%; z-index: 9}
+.menubar .logo {padding: 30px 13px 35px 27px; width: 80px; background-color: #111836}
+#wrap .bottom {text-align: center; background: #0f142a; height: 47px;
+                color: #fff; font-size: 17px; letter-spacing: 1px; padding-top: 15px;}
+
+.box {max-width: 850px; margin: 0 auto; 
+               height: calc(100vh - 80px); }
+.box .column {float: left; width: 46%; margin: 2%; margin-top: 100px;}
+.box .column h2 {font-size: 28px; padding: 20px 0; font-weight: 600; position: relative;}
+.box .column h2::after {content: ''; position: absolute; top: 53px; left: 0; 
+                        width: 50px; height: 3px; background: #e0e721;}
+.box .column:nth-child(1) {position: relative; padding-left: 30px;}
+.box .column:nth-child(1) form div {margin-bottom: 40px;}
+.box .column:nth-child(2) p:nth-of-type(2) {margin-bottom: 40px;}
+.box .column input {height: 47px; width: 85%; vertical-align: middle;
+                             border: 1px solid #aaa; margin-left: 10px;}
+.box .column input[placeholder] {padding-left: 5px;}
+.box .column p {margin: 10px 0; line-height: 1.4;}
+.box .column a {vertical-align: middle; border: none; font-size: 16px;
+                background: #111836; color: #3d67e4; text-align: center;
+                padding: 10px 30px; margin-left: 10px;
+                transition: all 0.5s;}
+.box .column a:hover {background: #3d67e4; color: #111836;}
+.box .column:nth-child(1)::after {content: ''; position: absolute; top: -20px;
+                                  right: -18px; width: 2px; height: 380px; background: #ccc;}
+.box .column:nth-child(2) {padding-left: 20px;}
+

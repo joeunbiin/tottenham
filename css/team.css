@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+#section {margin: 0 0 200px 0;}
+.topimg > div {overflow: hidden; position: relative; transition: all 0.4s;}
+.topimg > div img {width: 100%;}
+.topimg > div::after {content: ''; top:0 ; left: 0; bottom: 0; right: 0; 
+                      position: absolute; background: rgba(15, 20, 42, 0.664);}
+.topimg h2 {position: absolute; text-shadow: 6px 4px #0b1025;
+            top: 70% ; left: 50%; color: #fff; z-index: 9;
+            transform: translate(-50%, -50%); font-size: 70px;}
+
+/* team_men*/
+.team_men > .row {padding: 0 70px;}
+.subtitle {font-size: 50px; padding: 40px 0; font-weight: 600; position: relative;
+           margin-top: 30px;}
+.subtitle::after {content: ''; position: absolute; top: 100px; left: 0; 
+                  width: 90px; height: 7px; background: #e0e721;}
+.teamf > ul {display: flex; justify-content: space-around; align-items: center;
+             flex-wrap: wrap; margin: 0 20px;}
+.teamf > ul li {margin: 20px; position: relative;}
+.teamf > ul li > div:nth-child(1) {overflow: hidden;}             
+.teamf > ul li img {width: 300px; margin-bottom: 10px; transition: all 0.8s; 
+                   padding-top: 18px;}
+.teamf > ul li::after {content: ''; position: absolute; height: 3px; transition: all 0.5s;
+                      width: 280px; bottom: 77px; left: 10px; background: #ddd;}    
+.teamf > ul li:hover::after {background: #111836; height: 6px; left: 0; width: 100%;}    
+.teamf > ul li:hover img {transform: scale(1.23);}                      
+.player_box {display: flex; flex-direction: column; margin-top: 10px;}
+.player_box .mwrap .info {display: flex; flex-direction: row; height: 100%;}
+.player_box .mwrap .info .lwrap {display: flex; flex-direction: column; flex: 5;}
+.player_box .mwrap .info .lwrap > div {flex: 1; padding: 10px 0}
+.nation, .name {display: flex; justify-content: flex-start; align-items: center; 
+                padding-left: 25px; }
+.nation {color: #555}
+.number {font-size: 45px; flex: 1; padding-right: 10px;
+        display: flex; justify-content: center; align-items: center;}
+
+        
+/* team_women */
+.team_women > .row {padding: 0 70px;}
+
+
+/* team_u23 */
+.team_u23 > .row {padding: 0 70px;}
+
+
+/* team_u18 */
+.team_u18 > .row {padding: 0 70px;}
+

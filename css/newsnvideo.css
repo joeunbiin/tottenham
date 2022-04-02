@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Recursive&display=swap');
+body {font-family: 'Noto Sans KR', sans-serif, 'Recursive', sans-serif; color: #222;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+#section {margin: 0 0 200px 0;}
+.topimg > div {overflow: hidden; position: relative; transition: all 0.4s;}
+.topimg > div img {width: 100%;}
+.topimg > div::after {content: ''; top:0 ; left: 0; bottom: 0; right: 0; 
+                      position: absolute; background: rgba(15, 20, 42, 0.664);}
+.topimg h2 {position: absolute; text-shadow: 6px 4px #0b1025;
+            top: 70% ; left: 50%; color: #fff; z-index: 9;
+            transform: translate(-50%, -50%); font-size: 70px;}
+.newsnvideo .row {padding: 0 70px;}
+.subtitle {font-size: 50px; padding: 40px 0; font-weight: 600; position: relative;
+            margin-top: 30px;}
+.subtitle::after {content: ''; position: absolute; top: 100px; left: 0; 
+                  width: 90px; height: 7px; background: #e0e721;}
+
+/* news */
+.newsbox > .btn {margin-top: 30px; text-align: center;}
+.newsbox > .btn a {padding: 10px 50px; background: #0b1025; color: #fff;
+                   font-size: 18px; transition: all 0.5s;}
+.newsbox > .btn a:hover {background: #3d67e4}
+.newsbox, .szbox {margin-bottom: 70px; margin-top: 20px;}
+.newsbox {line-height: 1.3;}
+.newsbox > div > div {border: 1px solid rgb(189, 189, 189); position: relative;}
+.newsbox > div > div:hover {box-shadow: 8px 8px 8px rgba(165, 165, 165, 0.5);}
+.newsbox .newstxt ul {padding: 5px; font-size: 14px; 
+                      overflow: hidden; color: #3d67e4; height: 50px;
+                        position: relative;}
+.newsbox .newstxt ul::after {content: ''; position: absolute; bottom: 0px; left: 0%; 
+                             width: 0; height: 3px; background: #363f63;}
+.newsbox > div > div:hover ul::after {animation: loading 1s both;}   
+@keyframes loading {from {width: 0;} to {width: 40%}}     
+.newsbox .newsfour ul {height: 70px;}
+.newsbox .newstxt ul li {display: inline-block; padding: 0 3px;}
+.newsbox .newstxt h3 {padding: 8px; font-size: 19px; font-weight: 700;} 
+.newsbox .newstxt p {padding: 10px 8px 50px;}
+.newsbox .newstxt a {bottom: 10px; right: 10px;position: absolute;}
+.newsbox .newstxt a:hover {color: #3d67e4;}
+.newsbox .newstwo {display: flex;}
+.newsbox .newstwo > div {flex: 1; margin: 13px 8px;}
+.newsbox .newsfour {display: flex;}
+.newsbox .newsfour > div {flex: 1; margin: 13px 8px;}
+
+/* highlight */
+.highlight .subtitle::after {content: ''; position: absolute; top: 65px; left: 70px; 
+                             width: 90px; height: 7px; background: #e0e721;}
+.hlcontnent .subtitle2 {font-size: 28px; padding: 30px 0 30px; font-weight: 600 ;
+                         margin-left: 70px; color: #fff;}
+.hlbox {height: 581px; background: url(../img/news/light.jpg) no-repeat top;
+        position: relative; background-attachment: fixed;
+        background-size: cover; margin: 70px 0;}
+.hlbox::after {content: ''; top:0 ; left: 0; bottom: 0; right: 0; 
+               position: absolute; background: rgba(15, 20, 42, 0.6);}
+.hlvideo > div {margin: 10px; height: 400px; width: 100%; z-index: 99;
+                overflow: hidden; background-size: cover; border-radius: 10px;
+                background-position: center; background-repeat: no-repeat;
+                transition: all 0.5s;}
+.hlvideo > div:hover{transform: scale(1.025) rotate(3deg);}
+.video1 {background-image: url(../img/news/video_1.jpg); position: relative;}   
+.video2 {background-image: url(../img/news/video_2.jpg); position: relative;} 
+.video3 {background-image: url(../img/news/video_3.jpg); position: relative;}              
+.video4 {background-image: url(../img/news/video_4.jpg); position: relative;} 
+.hlvideo {display: flex; justify-content: space-around; margin: 18px 70px 20px;}
+.hlvideo span i {background: #c70101; color: #fff; transform: translate(-50%,-50%);
+                 bottom: 70px; padding: 20px; border-radius: 5px; position: absolute;
+                 left: 15%; transition: all 0.5s; cursor: pointer;}
+.hlvideo span i:hover {background: #fff; color: #c70101}
+.hlvideo {position: relative;}
+.hlvideo > div h2 {transform: translateY(0); line-height: 1.3;
+                   bottom: 20px; padding: 10px; position: absolute;
+                   left: 10px; color: #fff; font-size: 20px; font-weight: bold;}
+
+
+/* sonnyzone */
+.szbox {display: flex; justify-content: space-around; align-items: center;
+        flex-wrap: wrap;}
+.szbox iframe {width: 46%; margin: 10px 20px;}

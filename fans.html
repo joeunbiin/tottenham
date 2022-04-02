@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tottenham hotspur</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/fans.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="search">
+                <div class="row">
+                    <a href="#none"><img src="img/korea.png"> 한국어</a>
+                    <a href="login.html"><i class="fas fa-user"></i></a>
+                    <a href="#" class="open"><i class="fas fa-search"></i></a>
+                    <div class="search_open">
+                        <div class="searchbox">
+                            <div class="cf">
+                                <input type="text" id="searchct" placeholder="검색어를 입력하세요.">
+                                <button><i class="fas fa-search"></i></button>
+                            </div>
+                            <button class="close"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="">
+                    <h1><a href="index.html"><img src="img/spurs_logo.png" alt="토트넘 훗스퍼"></a>
+                        <p>
+                            Ranking
+                            <a href="ranking.html"><i class="far fa-futbol"></i></a></p>
+                    </h1>
+                    <div class="nav_menu">
+                        <ul class="depth1">
+                            <li><a href="#">경기</a>
+                                <ul class="depth2">
+                                    <li><a href="fixture.html">일정</a></li>
+                                    <li><a href="result.html">결과</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">선수</a>
+                                <ul class="depth2">
+                                    <li><a href="team_men.html">남자</a></li>
+                                    <li><a href="team_women.html">여자</a></li>
+                                    <li><a href="team_u23.html">23세 이하</a></li>
+                                    <li><a href="team_u18.html">18세 이하</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="newsnvideo.html">뉴스 & 영상</a></li>
+                            <li><a href="fans.html">FANS</a></li>
+                            <li><a href="shop.html">쇼핑</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="section">
+            <article class="fans">
+                <div class="topimg">
+                    <div>
+                        <img src="img/fans.png" alt="">
+                        <h2>FANS</h2>
+                        <h3>당신들이 있기에, 우리가 존재합니다.</h3>
+                    </div>
+                </div>
+                <div class="membership">
+                    <div class="row">
+                        <h2 class="subtitle">Membership</h2>
+                        <div class="msbox">
+                            <div class="quote">
+                                <div class="quotebox">
+                                    <div class="quote_content cf">
+                                        <img src="img/fans/quote.jpg" alt="">
+                                        <div>
+                                            <div class="quote_txt">
+                                                <p>"IN A WORLD FULL OF UNITEDS,<br>&nbsp; CITYS AND ROVERS,<br>&nbsp;&nbsp;THERE IS ONLY ONE HOTSPUR"</p>
+                                                <p>Tottenham Hotspur</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="subtitle2">One Hotspur 멤버십 혜택</h2>
+                            <div>
+                                <ul class="mscontent">
+                                    <li>
+                                        <img src="img/fans/ms_1.png" alt="">
+                                        <span>새로운 2021/22 멤버십 팩</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/fans/ms_2.png" alt="">
+                                        <span>2만 5천원 상당의 온라인 상품권</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/fans/ms_3.png" alt="">
+                                        <span>스카이워크, 경기장 투어, <br>스퍼스샵 할인 혜택</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/fans/ms_4.png" alt="">
+                                        <span>One Hotspur Moments<br>독점 입장권</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/fans/ms_5.png" alt="">
+                                        <span>파트너 제안 및 할인</span>
+                                    </li>
+                                    <li>
+                                        <img src="img/fans/ms_6.png" alt="">
+                                        <span>티켓 입장 우선권</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2 class="subtitle2">One Hotspur 멤버십 혜택 전체보기</h2>
+                            <table id="benefit">
+                                <caption class="blind">멤버십 혜택 전체보기</caption>
+                                <colgroup>
+                                    <col>
+                                    <col>
+                                    <col>
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>One hotspur</th>
+                                        <th>One Hotspur +</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>티켓 입장 우선권</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24시간 티켓 추가 입장권</td>
+                                        <td></td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>시즌 티켓 대기자 명단 기재</td>
+                                        <td></td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2만 5천원 상당의 온라인 상품권 (성인 및 시니어 회원)</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>웰컴 선물 가방 (주니어 회원) </td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>One Hotspur Moments 독점 입장권</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>선택한 멤버십데이에 10% 스퍼스샵 할인 </td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>스카이워크, 경기장 투어 10% 할인 혜택</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>주니어 회원을 위한 무료 경기장 투어</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>주니어 회원을위한 스퍼스 여성 경기 무료 입장</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>주니어 회원 생일 카드</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cadbury World 입장료 20 % 할인 </td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>파트너 제안 및 할인</td>
+                                        <td>&#149;</td>
+                                        <td>&#149;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div>
+                                <img src="img/fans/price.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="junior">
+                    <div class="row">
+                        <h2 class="subtitle">Junior</h2>
+                        <div class="jubox cf">
+                            <h2 class="subtitle2">주니어 멤버십 혜택</h2>
+                            <p>Junior One Hotspur 회원에게는 다음과 같은 기회가 있습니다.</p>
+                            <div class="half">
+                                <img src="img/fans/junior.png" alt="">
+                            </div>
+                            <div class="half">
+                                <ul class="jucontent">
+                                    <li>선수 만나기</li>
+                                    <li>주니어 크리스마스 파티 참석</li>
+                                    <li>독점 대회 참가</li>
+                                    <li>선수들 상대로 FIFA 플레이</li>
+                                    <li>경기장에서의 가족촬영</li>
+                                    <li>시즌 내내 독점 이벤트 참석</li>
+                                    <li>마스코트 기회</li>
+                                    <li>무료 경기장 투어</li>
+                                    <li>스퍼즈 여자 경기 무료 입장</li>
+                                    <li>그리고..!</li>
+                                </ul>
+                                <a href="#benefit" class="btn">혜택 더 보기 &nbsp;<i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide_group">
+                        <div class="slide slide1">
+                            <img src="img/fans/slide_1.png" alt="">
+                        </div>
+                        <div class="slide slide2">
+                            <img src="img/fans/slide_2.png" alt="">
+                        </div>
+                        <div class="slide slide3">
+                            <img src="img/fans/slide_3.png" alt="">
+                        </div>
+                        <div class="slide slide4">
+                            <img src="img/fans/slide_4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="supporters">
+                    <div class="row">
+                        <h2 class="subtitle">Supporters</h2>
+                        <div class="spbox">
+                            <div class="quote">
+                                <div class="quotebox">
+                                    <div class="quote_content cf">
+                                        <img src="img/fans/quote2.jpg" alt="">
+                                        <div>
+                                            <div class="quote_txt">
+                                                <p>"WE ARE IMMENSELY PROUD<br> OF ALL OUR OFFICIAL<br>SUPPORTERS’ CLUBS"</p>
+                                                <p>Daniel Levy, Tottenham Hotspur Chairman</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe width="100%" height="700px" src="https://livemap.getwemap.com/tests/tottenham/#/" frameborder="0" style="max-width:100%" allowfullscreen="" allowtransparency="" allow="geolocation; camera; accelerometer; gyroscope; magnetometer; fullscreen"></iframe>
+                    </div>
+                    <div class="row">
+                        <div class="spbox">
+                            <h2 class="subtitle2">서포터즈의 특별한 순간들!</h2>
+                            <div class="spimg cf">
+                                <div class="spimgbox yimg">
+                                    <img src="img/fans/sp_3.jpg" alt="">
+                                    <span>암스테르담의 스퍼스!!!</span>
+                                </div>
+                                <div class="spimgbox">
+                                    <img src="img/fans/sp_2.jpg" alt="">
+                                    <span>가장 최근의 싱가포르 스퍼스 멤버 벤자민 알피 굿펠로우!</span>
+                                </div>
+                                <div class="spimgbox">
+                                    <img src="img/fans/sp_12.jpg" alt="">
+                                    <span>우스터 스퍼스가 첫번째 만찬을 주최하고, 700파운드를 모금합니다!</span>
+                                </div>
+                                <div class="spimgbox ximg">
+                                    <img src="img/fans/sp_15.jpg" alt="">
+                                    <span>노스웨스트 스퍼스의 콜린과 웬디 마이어스가 발렌타인을 맞이하여 VIP 투어와 스타디움 다이닝을 경험했습니다.</span>
+                                </div>
+                                <div class="spimgbox yimg">
+                                    <img src="img/fans/sp_7.jpg" alt="">
+                                    <span>상하이에서 아시아 팬들이 환호하고 있다.</span>
+                                </div>
+                                <div class="spimgbox yimg">
+                                    <img src="img/fans/sp_13.jpg" alt="">
+                                    <span>요크셔 스퍼스 주니어 멤버</span>
+                                </div>
+                                <div class="spimgbox ximg">
+                                    <img src="img/fans/sp_4.jpg" alt="">
+                                    <span>모두 타세요! 번리 어웨이로 향하는 요트 스퍼스!</span>
+                                </div>
+                                <div class="spimgbox yimg">
+                                    <img src="img/fans/sp_6.jpg" alt="">
+                                    <span>상하이에서 열린 프리시즌 오픈 훈련에서 한국의 스퍼스!</span>
+                                </div>
+                                <div class="spimgbox">
+                                    <img src="img/fans/sp_8.jpg" alt="">
+                                    <span>스퍼스와의 인터뷰 전, 뉴질랜드 스퍼스의 드웨인 & 테오TV!</span>
+                                </div>
+                                <div class="spimgbox yimg">
+                                    <img src="img/fans/sp_9.jpg" alt="">
+                                    <span>오스틴 스퍼스가 NBC 프리미어 리그 라이브 팬을 위해 전력을 다하고 있다.</span>
+                                </div>
+                                <div class="spimgbox">
+                                    <img src="img/fans/sp_10.jpg" alt="">
+                                    <span>미들즈브러로 가는 요크셔 스퍼스!</span>
+                                </div>
+                                <div class="spimgbox yimg">
+                                    <img src="img/fans/sp_11.jpg" alt="">
+                                    <span>Feeding Tampa Back에서 노숙자들을 위해 2800달러 이상을 기부하고, 4시간 동안 그들은 만 개 이상의 식사를 제공하였습니다!</span>
+                                </div>
+                                <div class="spimgbox">
+                                    <img src="img/fans/sp_5.jpg" alt="">
+                                    <span>스퍼스의 자선경매</span>
+                                </div>
+                                <div class="spimgbox">
+                                    <img src="img/fans/sp_14.jpg" alt="">
+                                    <span>싱가포르 스퍼스와 인사하세요!</span>
+                                </div>
+                                
+                                <div class="spimgbox ximg">
+                                    <img src="img/fans/sp_16.jpg" alt="">
+                                    <span>미국의 스퍼스!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer id="footer">
+            <div class="ft1">
+                <div class="row">
+                    <div class="slide_group2">
+                        <div class="slide slide1"><img src="img/sponser_1.png" alt=""></div>
+                        <div class="slide slide2"><img src="img/sponser_2.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_3.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_4.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_5.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_6.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_7.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_8.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_9.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_10.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_11.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_12.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_13.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_14.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_15.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_16.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_17.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_18.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_19.png" alt=""></div>
+                        <div class="slide slide1"><img src="img/sponser_20.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ft2">
+                <div class="row">
+                    <ul>
+                        <li><a href="https://ask.tottenhamhotspur.com/hc/en-us"><img src="img/ask-spurs.png" alt=""></a></li>
+                        <li><a href="https://www.youtube.com/user/spursofficial"><img src="img/youtube.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/TottenhamHotspur"><img src="img/facebook.png" alt=""></a></li>
+                        <li><a href="https://www.instagram.com/spursofficial"><img src="img/instagram.png" alt=""></a></li>
+                        <li><a href="https://twitter.com/SpursOfficial"><img src="img/twitter.png" alt=""></a></li>
+                        <li><a href="https://www.snapchat.com/add/spursofficial"><img src="img/snapchat.png" alt=""></a></li>
+                        <li><a href="https://www.naver.com"><img src="img/naver.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ft3">
+                <div class="row">
+                    <p>&copy; 2021 Tottenham Hotspur</p>
+                </div>
+            </div>
+            <div class="ft4">
+                <div class="row">
+                    <ul>
+                        <li>연락처</li>
+                        <li>쿠키정책</li>
+                        <li>웹사이트 이용 약관</li>
+                        <li>개인정보처리방침</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="gotop">
+            <a href="#none"><i class="fas fa-long-arrow-alt-up"></i></a>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
